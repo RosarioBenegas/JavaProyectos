@@ -12,9 +12,6 @@ import java.util.Scanner;
  */
 public class Gui2Ejer01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in); 
@@ -25,5 +22,6 @@ public class Gui2Ejer01 {
         num2 = leer.nextInt();
         suma = num1 + num2;
         System.out.println("la suma de " + num1 + " + " + num2 + " es " + suma);
+        System.out.println("hasta pronto");
     }
    }
